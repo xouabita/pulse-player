@@ -7,7 +7,7 @@ req.open ( 'GET', base_uri+yt_url, false );
 req.send(null);
 if (req.status == 200)
   console.log (req.responseText); */
-var mp3_url = "http://youtubeinmp3.com/download/grabber/?mp3=_Pulse_Tone_Eternally.mp3&n=0&t=%E2%99%AB+Pulse+Tone+%2F+Eternally&s=5&id=cYaZCUZzfPM";
+var mp3_url = "http://rockdizfile.com/mp3embed-qe188lih82ds.mp3";
 // Create a new instance of an audio object and adjust some of its properties
 var audio = new Audio();
 audio.src = mp3_url;

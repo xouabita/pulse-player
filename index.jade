@@ -1,13 +1,20 @@
 doctype html5
 html
   head
-    title Modern Player
+    meta(charset='utf-8')
+    title Pulse Player [WIP]
     style(type='text/css').
+      #text { width: 500px; margin: auto; }
+      #text > h1 { font-size: 50px; margin:20px auto; }
+      #text > p { margin: 10px auto; }
       #mp3_player{ width:500px; height:60px; background:#000; padding:5px; margin:50px auto; }
       #mp3_player > div > audio{  width:500px; background:#000; float:left;  }
       #mp3_player > canvas{ width:500px; height:30px; background:#002D3C; float:left; }
     script(type='text/javascript' src='./modern_player.js')
   body
+    #text
+      h1 Pulse Player [WIP]
+      p C'est qu'un début bande de fils de pute !!!!
     #mp3_player
       #audio_box
       canvas#analyser_render
